@@ -1,8 +1,3 @@
-
-
-from typing import Iterable
-
-
 def grader(s, a) :
     dic = dict()
     for solution in s :
@@ -14,8 +9,6 @@ def grader(s, a) :
     
     for index, res in enumerate(result) :
         print(f"학생 : {res[0]} 점수 : {res[1]}점 {index+1}등")
-        
-
 
 # 학생 답
 s = ["김갑,3242524215",
